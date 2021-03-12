@@ -1,3 +1,6 @@
 .side-bar{
-  padding: 3rem
+  max-width: 300px;
+  width: 300px;
+  height: 100%;
+  padding: 30px 10px;
 }
