@@ -1,0 +1,89 @@
+.main{
+  flex:1;
+  padding: 20px;
+  background-color: #f0f5f9;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+
+
+    h2 {
+      color: #000000;
+    }
+
+    .timer-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .clock {
+        margin-right: 20px;
+        display: flex;
+        .dot {
+            color: #48b6f1;
+            margin: 0 10px;
+        }
+        .clock-time {
+          h2 {
+            color: #48b6f1;
+          }
+          p{
+            margin-top: 2px;
+            color: #464646;
+            font-weight: 400;
+            font-size: 12px;
+          }
+        }
+      }
+
+      button {
+        padding: 15px 20px;
+        border-radius: 15px;
+        border: none;
+        background-color:#48b6f1;
+        outline: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+
+/*
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+.color1{
+  color:#48b6f1
+}
+
+.day{
+  position: relative;
+  word-spacing: 26px;
+  top:65px;
+  margin-left: 15px;
+  position: absolute;
+  font-size: 10px;
+}
+
+.nright{
+  display: flex;
+}
+
+.buy{
+  margin-left: 50px;
+
+}
+
+.around{
+  display: flex;
+  justify-content: space-between;
+} */

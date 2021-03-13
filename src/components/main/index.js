@@ -1,14 +1,40 @@
 import React from "react";
-import Button from "../common/button";
-import Card from "../common/card";
-import "./main.css";
+import Card from "../Card";
+
+import "./main.scss";
 
 const Main = () => {
   return (
-    <React.Fragment>
-      <div className="main">
-        <div className="flexbox">
-          <h1>Dashboard</h1>
+    <div className="main">
+      <div className="header">
+        <h2>Dashboard</h2>
+        <div className="timer-section">
+          <div className="clock">
+            <div className="clock-time">
+              <h2>10</h2>
+              <p>Day</p>
+            </div>
+            <h2 className="dot">:</h2>
+            <div className="clock-time">
+              <h2>12</h2>
+              <p>Hours</p>
+            </div>
+            <h2 className="dot">:</h2>
+            <div className="clock-time">
+              <h2>30</h2>
+              <p>Minutes</p>
+            </div>
+            <h2 className="dot">:</h2>
+            <div className="clock-time">
+              <h2>14</h2>
+              <p>Seconds</p>
+            </div>
+          </div>
+          <button>Buy Powder</button>
+        </div>
+      </div>
+
+      {/* <div className="flexbox">
           <div className="nright">
             <div>
               <span>
@@ -31,28 +57,23 @@ const Main = () => {
               </span>
             </div>
           </div>
+        </div> */}
+
+      <div className="around">
+        <div>
+          <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
+          <Card padding="20px 60px" />
         </div>
-        {/* this is the end of flex box div */}
-        <div className="around">
-          <div>
-            <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
-            <Card padding="20px 60px" />
-          </div>
-          <div>
-            <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
-            <Card padding="20px 60px" />
-          </div>
-          <div>
-            <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
-            <Card padding="20px 60px" />
-          </div>
+        <div>
+          <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
+          <Card padding="20px 60px" />
         </div>
-        <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
-        <div className="around">
-          <Card padding="63px 10px" />
+        <div>
+          <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
+          <Card padding="20px 60px" />
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 
