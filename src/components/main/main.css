@@ -1,0 +1,32 @@
+.main{
+  flex:1;
+  padding: 20px;
+  background-color: #f0f5f9;
+}
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+.color1{
+
+  color:#48b6f1
+}
+.day{
+  position: relative;
+  word-spacing: 26px;
+  top:65px;
+  margin-left: 15px;
+  position: absolute;
+  font-size: 10px;
+}
+.nright{
+  display: flex;
+}
+.buy{
+  margin-left: 50px;
+  
+}
+.around{
+  display: flex;
+  justify-content: space-between;
+}
