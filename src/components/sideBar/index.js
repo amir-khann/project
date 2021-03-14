@@ -24,7 +24,7 @@ const SideBar = () => {
         <h4 className="mt">lorem ipsum</h4>
       </div>
       <p className="tranch">Tranche details:</p>
-      <p>
+      <p style={{ margin: "20px 0px" }}>
         lorem ipsum is simplu dummy text of the printing and typesetting
         industry
       </p>
@@ -32,9 +32,9 @@ const SideBar = () => {
         <p className="mt">Quantity:</p>
         <h4 className="mt">lorem ipsum</h4>
       </div>
-      <div className="flex-div">
+      <div style={{ marginBottom: "10px" }} className="flex-div">
         <p className="value">Value staked:</p>
-        <h4>lorem ipsum</h4>
+        <h4 style={{ marginTop: "22px" }}>lorem ipsum</h4>
       </div>
       <div className="center">
         <Button

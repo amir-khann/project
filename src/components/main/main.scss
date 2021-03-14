@@ -2,6 +2,7 @@
   flex:1;
   padding: 20px;
   background-color: #f0f5f9;
+  height: 850px;
 
   .header {
     display: flex;
@@ -52,38 +53,108 @@
       }
     }
   }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    .box{
+      display: flex;
+      flex-direction: column;
+      .outbox{
+        p{
+          margin: 10px 10px;
+          font-size: 22px;
+        }
+      }
+      .inbox{
+        width: 396px;
+        padding: 30px 60px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: #fff;
+        .price{
+         font-weight: 900;
+         font-size: 35px;
+         color: #48b6f1;
+         margin-right: 10px;
+        }
+        .currency{
+         font-weight: bolder;
+         font-size: 25px;
+        }
+      }
+    }
+  }
+  h4{
+    margin: 35px 10px;
+    font-weight: 700;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: space-around;
+    .secondb{
+      width: 19%;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #fff;
+      .image{
+        text-align: center;
+      }
+      .ld{
+        display: flex;
+        justify-content: space-between;
+        margin: 8px;
+        margin-bottom: 14px;
+      }
+      .lp{
+        color: #48b6f1;
+        margin-top: 20px;
+      }
+      .lheader{
+        color: #48b6f1;
+        text-align: center;
+        font-size: 19px;
+        font-weight: bolder;
+        margin: 10px;
+      }
+      .sbox{
+        display: flex;
+        justify-content: space-between;
+        .apy{
+          margin: 15px 0px;
+        }
+        .p{
+          margin-top: 6px;
+        }
+        .plus{
+          color:#48b6f1;
+          font-size: 10px;
+          margin: 0px 15px;
+          margin-bottom: 10px;
+        }
+      }
+    .buttond{
+      display: flex;
+      justify-content:space-between
+     
+    }.blueb{
+      padding: 8px;
+      border-radius: 5px;
+      color: white;
+      border: none;
+      background-color: #48b6f1;
+    }
+    .lightb{
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      color: #48b6f1;
+      background-color: #edf6fe;
+    }
+      
+    }
+  }
+  
 }
 
 
-
-/*
-.flexbox{
-  display: flex;
-  justify-content: space-between;
-}
-.color1{
-  color:#48b6f1
-}
-
-.day{
-  position: relative;
-  word-spacing: 26px;
-  top:65px;
-  margin-left: 15px;
-  position: absolute;
-  font-size: 10px;
-}
-
-.nright{
-  display: flex;
-}
-
-.buy{
-  margin-left: 50px;
-
-}
-
-.around{
-  display: flex;
-  justify-content: space-between;
-} */

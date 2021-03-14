@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Card";
 
+import A from "../../assets/a.png";
 import "./main.scss";
 
 const Main = () => {
@@ -33,44 +33,251 @@ const Main = () => {
           <button>Buy Powder</button>
         </div>
       </div>
-
-      {/* <div className="flexbox">
-          <div className="nright">
-            <div>
-              <span>
-                <h1 className="m0 color1"> 10 : 12 : 30 : 14 </h1>
-                <br />
-                <span className="latter-spacing day">
-                  Day Hours Minutes Seconds
-                </span>
-              </span>
+      <div className="cards">
+        <div className="box">
+          <div className="outbox">
+            <p>Total value locked</p>
+          </div>
+          <div className="inbox">
+            <span className="price">20 000</span>
+            <span className="currency">USD</span>
+          </div>
+        </div>
+        <div className="box">
+          <div className="outbox">
+            <p>POWDER price</p>
+          </div>
+          <div className="inbox">
+            <span className="price">20 000</span>
+            <span className="currency">USD</span>
+          </div>
+        </div>
+        <div className="box">
+          <div className="outbox">
+            <p>Epoch number</p>
+          </div>
+          <div className="inbox">
+            <span className="price">20 000</span>
+            <span className="currency">USD</span>
+          </div>
+        </div>
+      </div>
+      {/* end of box */}
+      <h4>Compound CToKen pools</h4>
+      <div className="wrapper">
+        <div className="secondb">
+          <div className="sbox">
+            <div className="left">
+              <h3 className="cardh apy">cETH</h3>
+              <p className="apy">Supply APY</p>
+              <p>Borrow APY</p>
             </div>
-            <div className="buy">
-              <span>
-                <Button
-                  size="19px"
-                  color="white"
-                  bgcolor="#48b6f1"
-                  padding="20px 30px"
-                  content="Buy powder"
-                />
-              </span>
+            <div className="right">
+              <img src={A} alt="" />
+              <p className="p">0.21%</p>
+              <p className="plus">+0.01</p>
+              <p>2.93%</p>
+              <p className="plus">+0.03</p>
             </div>
           </div>
-        </div> */}
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
+        <div className="secondb">
+          <div className="sbox">
+            <div className="left">
+              <h3 className="cardh apy">cETH</h3>
+              <p className="apy">Supply APY</p>
+              <p>Borrow APY</p>
+            </div>
+            <div className="right">
+              <img src={A} alt="" />
+              <p className="p">0.21%</p>
+              <p className="plus">+0.01</p>
+              <p>2.93%</p>
+              <p className="plus">+0.03</p>
+            </div>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
+        <div className="secondb">
+          <div className="sbox">
+            <div className="left">
+              <h3 className="cardh apy">cETH</h3>
+              <p className="apy">Supply APY</p>
+              <p>Borrow APY</p>
+            </div>
+            <div className="right">
+              <img src={A} alt="" />
+              <p className="p">0.21%</p>
+              <p className="plus">+0.01</p>
+              <p>2.93%</p>
+              <p className="plus">+0.03</p>
+            </div>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
+        <div className="secondb">
+          <div className="sbox">
+            <div className="left">
+              <h3 className="cardh apy">cETH</h3>
+              <p className="apy">Supply APY</p>
+              <p>Borrow APY</p>
+            </div>
+            <div className="right">
+              <img src={A} alt="" />
+              <p className="p">0.21%</p>
+              <p className="plus">+0.01</p>
+              <p>2.93%</p>
+              <p className="plus">+0.03</p>
+            </div>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
+        <div className="secondb">
+          <div className="sbox">
+            <div className="left">
+              <h3 className="cardh apy">cETH</h3>
+              <p className="apy">Supply APY</p>
+              <p>Borrow APY</p>
+            </div>
+            <div className="right">
+              <img src={A} alt="" />
+              <p className="p">0.21%</p>
+              <p className="plus">+0.01</p>
+              <p>2.93%</p>
+              <p className="plus">+0.03</p>
+            </div>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
+      </div>
+      <h4>Uniswap UNIV2 pools</h4>
+      <div className="wrapper">
+        <div className="secondb">
+          <p className="lheader">POWDER-ETH UNIV2</p>
+          <div className="image">
+            <span>
+              <img src={A} alt="" />
+            </span>
+            <span>
+              <img src={A} alt="" />
+            </span>
+          </div>
+          <div className="ld">
+            <div>
+              <p>1 year</p>
+              <p>fees/liquidity</p>
+            </div>
+            <span className="lp">0.21%</span>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
+        <div className="secondb">
+          <p className="lheader">POWDER-ETH UNIV2</p>
+          <div className="image">
+            <span>
+              <img src={A} alt="" />
+            </span>
+            <span>
+              <img src={A} alt="" />
+            </span>
+          </div>
+          <div className="ld">
+            <div>
+              <p>1 year</p>
+              <p>fees/liquidity</p>
+            </div>
+            <span className="lp">0.21%</span>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
+        <div className="secondb">
+          <p className="lheader">POWDER-ETH UNIV2</p>
+          <div className="image">
+            <span>
+              <img src={A} alt="" />
+            </span>
+            <span>
+              <img src={A} alt="" />
+            </span>
+          </div>
+          <div className="ld">
+            <div>
+              <p>1 year</p>
+              <p>fees/liquidity</p>
+            </div>
+            <span className="lp">0.21%</span>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
+        </div>
 
-      <div className="around">
-        <div>
-          <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
-          <Card padding="20px 60px" />
+        <div className="secondb">
+          <p className="lheader">POWDER-ETH UNIV2</p>
+          <div className="image">
+            <span>
+              <img src={A} alt="" />
+            </span>
+            <span>
+              <img src={A} alt="" />
+            </span>
+          </div>
+          <div className="ld">
+            <div>
+              <p>1 year</p>
+              <p>fees/liquidity</p>
+            </div>
+            <span className="lp">0.21%</span>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
         </div>
-        <div>
-          <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
-          <Card padding="20px 60px" />
-        </div>
-        <div>
-          <p>dgldgkldgjdklgjdlgjdgdiogjfgodgdfkgfiogjd</p>
-          <Card padding="20px 60px" />
+        <div className="secondb">
+          <p className="lheader">POWDER-ETH UNIV2</p>
+          <div className="image">
+            <span>
+              <img src={A} alt="" />
+            </span>
+            <span>
+              <img src={A} alt="" />
+            </span>
+          </div>
+          <div className="ld">
+            <div>
+              <p>1 year</p>
+              <p>fees/liquidity</p>
+            </div>
+            <span className="lp">0.21%</span>
+          </div>
+          <div className="buttond">
+            <button className="blueb">select Tranche</button>
+            <button className="lightb">Get Tokenname</button>
+          </div>
         </div>
       </div>
     </div>
